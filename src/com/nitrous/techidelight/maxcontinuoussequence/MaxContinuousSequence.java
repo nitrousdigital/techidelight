@@ -35,31 +35,30 @@ public class MaxContinuousSequence {
     }
     
     public static void main(String[] args) {
-        // Failed for Input [0, 1, 1, 0, 1, 1, 1, 0, 1, 1]
+        // Input [0, 1, 1, 0, 1, 1, 1, 0, 1, 1]
         // Expected output —> 3
-        // Your output     —> 7
         test(new int[] {0, 1, 1, 0, 1, 1, 1, 0, 1, 1}, 3);
         
-        
-        // Failed for Input [0, 0, 1, 0, 1, 1, 1, 0, 1, 1]
+        // Input [0, 0, 1, 0, 1, 1, 1, 0, 1, 1]
         // Expected output —> 7
-        // Your output     —> 3
         test(new int[] {0, 0, 1, 0, 1, 1, 1, 0, 1, 1}, 7);
         
-        // Failed for Input [1, 1, 1, 1, 0]
+        // Input [1, 1, 1, 1, 0]
         // Expected output —> 4
-        // Your output     —> 5
         test(new int[] {1, 1, 1, 1, 0}, 4);
         
-        // Failed for Input [0]
+        // Input [0]
         // Expected output —> 0
-        // Your output     —> -1
         test(new int[] {0}, 0);
 
-        // Failed for Input [0, 0]
+        // Input [0, 0]
         // Expected output —> 0
-        // Your output     —> -1
         test(new int[] {0, 0}, 0);
+        
+        // Input [1, 1]
+        // Expected output -> -1
+        test(new int[] {1, 1}, -1);
+        
         
     }
 }
