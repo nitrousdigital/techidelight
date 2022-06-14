@@ -16,10 +16,10 @@ public class RomanToInt {
     
     public static void main(String[] args) {
         String[] input = {
-                "III", "LVIII", "MCMXCIV" 
+                "III", "LVIII", "MCMXCIV", "MMMXLV" 
         };
         int[] expected = {
-                3, 58, 1994
+                3, 58, 1994, 3045
         };
         for (int i = 0 ; i < input.length; i++) {
             test(input[i], expected[i]);

@@ -36,6 +36,7 @@ public class Solution {
                                 value = 4; 
                                 i++;
                                 break;
+                                
                             // I can be placed before and X (10) to 9 
                             case 'X':
                                 value = 9;
@@ -52,11 +53,13 @@ public class Solution {
                             case 'L':
                                 value = 40;
                                 i++;
-                                
+                                break;
+
                             // X can be placed before C (100) to make 90
                             case 'C':
                                 value = 90;
                                 i++;
+                                break;
                         }
                         break;
                     }
