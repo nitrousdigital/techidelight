@@ -1,14 +1,19 @@
-package com.nitrous.leetcode.sudukovalid;
+package com.nitrous.leetcode.sudokuvalid;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+/**
+ * https://leetcode.com/problems/valid-sudoku/submissions/
+ * @author nitrousdigital
+ *
+ */
 public class Solution {
     
     /**
-     * O(N)
+     * O(N) where N is the number of cells in the grid.
      * 
      * Performs a single pass over the entire grid.
      * Allocates more memory (sqrt(N) * 3) sets
