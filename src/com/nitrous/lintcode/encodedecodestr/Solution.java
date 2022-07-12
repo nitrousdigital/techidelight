@@ -33,7 +33,7 @@ public class Solution {
                 i++;
             }
             if (lenStr.length() > 0) {
-                // skip past delimeter
+                // skip past delimiter
                 i++;
                 // decode the length
                 Integer len = Integer.parseInt(lenStr.toString());
