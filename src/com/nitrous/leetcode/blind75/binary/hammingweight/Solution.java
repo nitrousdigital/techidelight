@@ -1,4 +1,4 @@
-package com.nitrous.leetcode.hammingweight;
+package com.nitrous.leetcode.blind75.binary.hammingweight;
 
 public class Solution {
     // you need to treat n as an unsigned value
